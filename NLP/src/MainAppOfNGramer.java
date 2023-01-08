@@ -28,7 +28,7 @@ public class MainAppOfNGramer {
 
     public MainAppOfNGramer() throws IOException {
         new NGramRepositoryFromFileImpl();
-    }
+    } 
 
     public static void main(String[] args) {
 
