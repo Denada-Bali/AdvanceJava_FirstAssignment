@@ -30,7 +30,7 @@ public class NGramRepositoryFromFileImpl implements Runnable {
         catch (InterruptedException exception)
         {
             exception.printStackTrace();
-            Thread.currentThread().interrupt();  // re-interrupt the thread
+            Thread.currentThread().interrupt();   // re-interrupt the thread
         }
 
         // print task name
